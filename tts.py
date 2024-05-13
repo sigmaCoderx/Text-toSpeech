@@ -11,8 +11,8 @@ bot = telebot.TeleBot("5557353111:AAHfUi4HJit8CrhXWyrK2JzNhKaiA_68_eI")
 
 def button():
     markup = InlineKeyboardMarkup()
-    markup.add(InlineKeyboardButton(text='Group',url='t.me/DevelopersChat'),
-    InlineKeyboardButton(text='Channel',url='t.me/DevelopersPage'))
+    markup.add(InlineKeyboardButton(text='Group',url="t.me/neuralg"),
+    InlineKeyboardButton(text='Channel',url="t.me/neuralp"))
     return markup
     
 @bot.message_handler(commands=['start'],chat_types=['private'])
